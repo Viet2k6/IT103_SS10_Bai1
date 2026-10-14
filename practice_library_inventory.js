@@ -1,31 +1,7 @@
 let bookCatalog = [
-  {
-    bookCode: "B01",
-    title: "Lập trình JavaScript",
-    category: "CNTT",
-    price: 120000,
-    totalCopies: 10,
-    availableCopies: 5,
-    shelfLocation: "A01",
-  },
-  {
-    bookCode: "B02",
-    title: "Lão Hạc",
-    category: "CNTT",
-    price: 150000,
-    totalCopies: 8,
-    availableCopies: 0,
-    shelfLocation: "A02",
-  },
-  {
-    bookCode: "B03",
-    title: "Doraemon",
-    category: "CNTT",
-    price: 180000,
-    totalCopies: 6,
-    availableCopies: 3,
-    shelfLocation: "B01",
-  },
+    { bookCode: "B01", title: "Lập trình JavaScript", category: "CNTT", price: 120000, totalCopies: 10, availableCopies: 5, shelfLocation: "A01" },
+    { bookCode: "B02", title: "Lão Hạc", category: "CNTT", price: 150000, totalCopies: 8, availableCopies: 0, shelfLocation: "A02" },
+    { bookCode: "B03", title: "Doraemon", category: "CNTT", price: 180000, totalCopies: 6, availableCopies: 3, shelfLocation: "B01" }
 ];
 
 let choice = 0;
