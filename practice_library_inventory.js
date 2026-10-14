@@ -67,7 +67,15 @@ Chọn chức năng:`),
         break;
       }
 
-      bookCatalog.push({bookCode,title,category,price,totalCopies,availableCopies: totalCopies,shelfLocation,});
+      bookCatalog.push({
+        bookCode: bookCode,
+        title: title,
+        category: category,
+        price: price,
+        totalCopies: totalCopies,
+        availableCopies: totalCopies,
+        shelfLocation: shelfLocation
+      });
       console.log("Thêm sách thành công");
       break;
     }
